@@ -13,6 +13,5 @@ function checkGuess() {
   } else {
     message = "El número es mayor. Intenta de nuevo.";
   }
-
   document.getElementById("resultMessage").textContent = message;
 }
